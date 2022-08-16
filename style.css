@@ -1,0 +1,76 @@
+body{
+    background-color: ivory!important;
+}
+
+.app{
+    margin-top: 100px;
+}
+.brand{
+
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.price{
+    background-color: #f8f9fa;
+    margin: 15px 0px ;
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgb(64, 63, 63);
+    border-radius: 10px;
+    padding-left: 12px;
+}
+
+
+.button button{
+    width: 140px;
+    padding: 6px;
+    margin: 20px 10px ;
+}
+
+.total-price{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.total-price span{
+
+    padding-left: 5px;
+}
+
+
+
+.not-discount-text{
+
+    background-color: #ffc107;
+    border-radius: 8px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.discount-price-text{
+
+    background-color: #1ac977;
+    border-radius: 8px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 480px) {
+    .brand {
+      width: 80%;
+    }
+}
